@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial';
+}
+
+body {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #076ee3;
+}
+
+.bmi{
+  width: 400px;
+  background-color: #1a0a7898;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.bmi input{
+  border-radius: 5px;
+  /* padding-left: 2px; */
+  border: none;
+  height: 30px;
+  width: 100%;
+}
+.height {
+  margin-top: 15px;
+}
+
+.height input {
+  margin-top: 10px;
+}
+
+.weight {
+  margin-top: 15px;
+}
+
+.weight input {
+  margin-top: 10px;
+}
+
+button{
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #006b4c;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+p{
+  margin-top: 20px;
+  font-size: 18px;
+}
