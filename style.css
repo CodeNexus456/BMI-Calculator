@@ -18,14 +18,19 @@ body {
   color: white;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 5px 5px 10px #1a0a7898;
 }
 
 .bmi input{
   border-radius: 5px;
-  /* padding-left: 2px; */
   border: none;
   height: 30px;
   width: 100%;
+}
+
+.bmi input:hover {
+  border: 0.5px solid green;
+  box-shadow: 5px 5px 10px gray;
 }
 .height {
   margin-top: 15px;
@@ -53,6 +58,12 @@ button{
   border: none;
   font-size: 15px;
   cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 0 5px green;
+}
+
+button:hover {
+  transform: scale(1.03);
 }
 p{
   margin-top: 20px;
